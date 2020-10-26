@@ -1,0 +1,6 @@
+replicas: 1
+image: nginx
+tag: latest
+
+ingress:
+  rule: Host("nginx.foodonclick.ae")
